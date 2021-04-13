@@ -1,11 +1,10 @@
 package com.company.hookmethod;
 
+import com.sun.net.httpserver.HttpServer;
+
 public class Main2 {
     public static void main(String[] args) {
 
-        SuperClasse superClasse = new SuperClasse();
-
-        superClasse.principal();
 
         SubClasseA subClasseA = new SubClasseA();
         subClasseA.principal();
